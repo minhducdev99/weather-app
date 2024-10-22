@@ -1,0 +1,55 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: linear-gradient(45deg, #0f20a3, #a3c4e7);
+}
+
+.thunderstorm {
+  background-image: linear-gradient(45deg, #666666, #c2c2c4);
+}
+
+.clear {
+  background: linear-gradient(45deg, #db7512, #f5d72a);
+}
+
+.rainy {
+  background: linear-gradient(45deg, #073dc2, #46a2f0);
+}
+
+.cloudy {
+  background: linear-gradient(45deg, #868ed0, #a9afdf);
+}
+
+.snow {
+  background-image: url("https://i.giphy.com/OWxrxRHY6afRu.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.contentWrapper {
+  width: 500px;
+}
+
+.weatherForm {
+  margin-bottom: 20px;
+}
+
+.loading {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .contentWrapper {
+    width: 300px;
+  }
+}
